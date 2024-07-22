@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createGlobalStyle } from "styled-components";
-import { Router } from "./router/App";
+import "font-awesome/css/font-awesome.min.css";
+import { Router } from "./router/router";
 
 const GlobalStyles = createGlobalStyle`
   @media screen and (max-width: 8192px) {

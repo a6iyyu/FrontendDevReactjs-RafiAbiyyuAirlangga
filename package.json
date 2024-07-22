@@ -9,9 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@splidejs/splide": "^4.1.4",
+    "@splidejs/splide-extension-auto-scroll": "^0.5.3",
     "autoprefixer": "^10.4.19",
     "axios": "^1.7.2",
-    "dotenv": "^16.4.5",
     "font-awesome": "^4.7.0",
     "postcss": "^8.4.39",
     "prettier": "^3.3.3",
@@ -24,11 +25,10 @@
     "tailwindcss": "^3.4.6",
     "ts-node": "^10.9.2",
     "typed.js": "^2.1.0",
-    "vite-tsconfig-paths": "^4.3.2",
-    "yelp-fusion": "^3.0.0"
+    "vite-tsconfig-paths": "^4.3.2"
   },
   "devDependencies": {
-    "@types/dotenv": "^6.1.1",
+    "@types/node": "^20.14.11",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@types/react-helmet-async": "^1.0.1",

@@ -1,15 +1,13 @@
 import React from "react";
-import { Header } from "~/common/header";
-import { WebsiteMeta } from "~/common/website-meta";
-import { IndexHero } from "~/components/index/hero";
-import { DaftarRestoran } from "~/components/index/list";
+import { WebsiteMeta } from "~/components/website-meta";
+import { Header } from "~/components/header";
+import { DaftarRestoran } from "~/components/list";
 
 export const Indeks: React.FC = () => {
   return (
     <>
-      <WebsiteMeta title="Beranda" description="" />
+      <WebsiteMeta title="Beranda" description="Temukan masakan internasional yang Anda minati!" />
       <Header />
-      <IndexHero />
       <DaftarRestoran />
     </>
   );

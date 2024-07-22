@@ -1,0 +1,258 @@
+[
+    {
+        "id": 1,
+        "name": "Savory Delights",
+        "photos": "",
+        "categories": [
+            "Italian",
+            "Pasta"
+        ],
+        "rating": 4.5,
+        "price_range": "$$",
+        "is_open": true,
+        "reviews": [
+            {
+                "image": "",
+                "name": "John Doe",
+                "rating": 5,
+                "text": "Amazing food and great service!"
+            },
+            {
+                "image": "",
+                "name": "Jane Smith",
+                "rating": 4,
+                "text": "The pasta was delicious, but the dessert could be better."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Urban Eats",
+        "photos": "",
+        "categories": [
+            "American",
+            "Burgers"
+        ],
+        "rating": 4.2,
+        "price_range": "$",
+        "is_open": false,
+        "reviews": [
+            {
+                "image": "",
+                "name": "Michael Brown",
+                "rating": 4,
+                "text": "Great place for a quick bite!"
+            },
+            {
+                "image": "",
+                "name": "Sarah Johnson",
+                "rating": 3.5,
+                "text": "Good burgers but the fries were soggy."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Ocean's Catch",
+        "photos": "",
+        "categories": [
+            "Seafood"
+        ],
+        "rating": 4.8,
+        "price_range": "$$$",
+        "is_open": true,
+        "reviews": [
+            {
+                "image": "",
+                "name": "Emily Davis",
+                "rating": 5,
+                "text": "Best seafood in town!"
+            },
+            {
+                "image": "",
+                "name": "James Wilson",
+                "rating": 4.7,
+                "text": "Fresh and tasty seafood, highly recommend."
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Sushi Central",
+        "photos": "",
+        "categories": [
+            "Japanese",
+            "Sushi"
+        ],
+        "rating": 4.6,
+        "price_range": "$$",
+        "is_open": false,
+        "reviews": [
+            {
+                "image": "",
+                "name": "Chris Lee",
+                "rating": 4.5,
+                "text": "Excellent sushi and great ambiance."
+            },
+            {
+                "image": "",
+                "name": "Patricia Martinez",
+                "rating": 4.3,
+                "text": "Fresh sushi, but a bit pricey."
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "The Vegan Spot",
+        "photos": "",
+        "categories": [
+            "Vegan"
+        ],
+        "rating": 4.7,
+        "price_range": "$$",
+        "is_open": true,
+        "reviews": [
+            {
+                "image": "",
+                "name": "Anna White",
+                "rating": 5,
+                "text": "Amazing vegan options, will definitely come back!"
+            },
+            {
+                "image": "",
+                "name": "David Thomas",
+                "rating": 4.8,
+                "text": "Great variety of vegan dishes."
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Taco Fiesta",
+        "photos": "",
+        "categories": [
+            "Mexican",
+            "Tacos"
+        ],
+        "rating": 4.3,
+        "price_range": "$",
+        "is_open": false,
+        "reviews": [
+            {
+                "image": "",
+                "name": "Nancy Moore",
+                "rating": 4,
+                "text": "Tacos were delicious, but the place was crowded."
+            },
+            {
+                "image": "",
+                "name": "Kevin Taylor",
+                "rating": 3.8,
+                "text": "Good food, but the service was slow."
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Curry House",
+        "photos": "",
+        "categories": [
+            "Indian",
+            "Curry"
+        ],
+        "rating": 4.9,
+        "price_range": "$$$",
+        "is_open": true,
+        "reviews": [
+            {
+                "image": "",
+                "name": "Betty Anderson",
+                "rating": 5,
+                "text": "Best curry I've ever had!"
+            },
+            {
+                "image": "",
+                "name": "Robert Jackson",
+                "rating": 4.9,
+                "text": "Authentic flavors and great atmosphere."
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Mediterranean Grill",
+        "photos": "",
+        "categories": [
+            "Mediterranean"
+        ],
+        "rating": 4.4,
+        "price_range": "$$",
+        "is_open": false,
+        "reviews": [
+            {
+                "image": "",
+                "name": "Laura Harris",
+                "rating": 4.3,
+                "text": "Tasty dishes and friendly staff."
+            },
+            {
+                "image": "",
+                "name": "Daniel Clark",
+                "rating": 4.2,
+                "text": "Good food, but a bit overpriced."
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Bistro Café",
+        "photos": "",
+        "categories": [
+            "French",
+            "Café"
+        ],
+        "rating": 4.1,
+        "price_range": "$$",
+        "is_open": true,
+        "reviews": [
+            {
+                "image": "",
+                "name": "Amy Lewis",
+                "rating": 4,
+                "text": "Nice café with delicious pastries."
+            },
+            {
+                "image": "",
+                "name": "Brian Young",
+                "rating": 3.9,
+                "text": "Good coffee, but the place is a bit small."
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "BBQ Heaven",
+        "photos": "",
+        "categories": [
+            "BBQ"
+        ],
+        "rating": 4.7,
+        "price_range": "$$",
+        "is_open": false,
+        "reviews": [
+            {
+                "image": "",
+                "name": "Jessica King",
+                "rating": 4.6,
+                "text": "Amazing BBQ, highly recommend!"
+            },
+            {
+                "image": "",
+                "name": "George Wright",
+                "rating": 4.5,
+                "text": "Great food, but a bit on the spicy side."
+            }
+        ]
+    }
+]
