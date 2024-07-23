@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import { WebsiteMeta } from "~/components/website-meta";
-import { Header } from "~/components/header";
-import { Marquee } from "~/components/marquee";
-import { DaftarRestoran } from "~/components/list";
+import { WebsiteMeta } from "~/common/website-meta";
+import { IndexHeader } from "~/components/index/header";
+import { Marquee } from "~/components/index/marquee";
+import { DaftarRestoran } from "~/components/index/list";
 
 export const Indeks: React.FC = () => {
   useEffect(() => {
@@ -16,7 +16,7 @@ export const Indeks: React.FC = () => {
   return (
     <>
       <WebsiteMeta title="Beranda" description="Temukan masakan internasional yang Anda minati!" />
-      <Header />
+      <IndexHeader />
       <Marquee />
       <DaftarRestoran />
     </>

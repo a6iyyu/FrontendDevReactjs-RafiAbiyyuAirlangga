@@ -1,40 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { WebsiteMeta } from "~/components/website-meta";
+import { WebsiteMeta } from "~/common/website-meta";
+import { Header } from "~/common/header";
+import { NotFound } from "~/components/404/not-found";
+import { Footer } from "~/common/footer";
 
 export const NotFoundPage: React.FC = () => {
   return (
     <>
       <WebsiteMeta title="404: Halaman Tidak Ditemukan!" description="" />
-      <header className="mx-auto flex h-fit w-4/5 py-10 text-2xl font-black text-slate-50 lg:py-14 lg:text-4xl">
-        <Link to={"/"} className="group text-justify text-slate-50 transition-all duration-300 ease-in-out">
-          <h2 className="lg:bg-gradient-to-r lg:from-sky-500 lg:to-sky-500 lg:bg-[length:0%_0.125rem] lg:bg-left-bottom lg:bg-no-repeat lg:transition-all lg:duration-500 lg:ease-out lg:group-hover:bg-[length:100%_0.125rem]">
-            <span className="text-[#ffd700]">Dov</span>eri
-          </h2>
-        </Link>
-      </header>
-      <main className="mx-auto mb-52 mt-32 flex w-4/5 flex-col items-center justify-between text-gray-50 lg:flex-row">
-        <img src="/404.png?url" alt="404: Not Found!" className="font-semibold" />
-        <section className="mt-8 flex h-full w-full cursor-default flex-col items-center justify-center text-gray-50 lg:mt-0 lg:w-1/2 lg:items-start">
-          <p className="h-fit w-fit text-4xl font-bold lg:text-5xl">Oops!</p>
-          <p className="mt-2 h-fit w-fit text-3xl font-medium lg:text-4xl">
-            Didn't find anything here.
-          </p>
-          <br />
-          <p className="text-justify text-lg font-normal lg:text-2xl">
-            Seems like this page took a brushstroke in the wrong direction.
-            Let's navigate back to the main exhibit together.
-          </p>
-          <br />
-          <br />
-          <Link to="/" className="flex h-fit w-fit cursor-pointer items-center justify-between rounded-full bg-gray-200 py-2 pl-3 pr-8 transition-all duration-300 ease-in-out hover:bg-gray-300">
-            <div className="grid h-14 w-14 place-items-center rounded-full bg-gray-950 text-xl text-gray-50 transition-all duration-300 ease-in-out [transform:rotate(225deg)] hover:bg-gray-800 hover:text-gray-200">
-              &#10132;
-            </div>
-            <h5 className="ml-4 text-lg font-bold text-gray-950">Drift Home</h5>
-          </Link>
-        </section>
-      </main>
+      <Header />
+      <NotFound />
+      <Footer />
     </>
   );
 };
