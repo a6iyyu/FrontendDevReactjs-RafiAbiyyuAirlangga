@@ -1,8 +1,8 @@
 [
     {
-        "id": 1,
+        "id": "7b195607c477431b9fa543284bd092a0",
         "name": "Savory Delights",
-        "photos": "",
+        "photos": "/savory-delights.jpg?url",
         "categories": [
             "Italian",
             "Pasta"
@@ -15,20 +15,20 @@
                 "image": "",
                 "name": "John Doe",
                 "rating": 5,
-                "text": "Amazing food and great service!"
+                "comment": "Amazing food and great service!"
             },
             {
                 "image": "",
                 "name": "Jane Smith",
                 "rating": 4,
-                "text": "The pasta was delicious, but the dessert could be better."
+                "comment": "The pasta was delicious, but the dessert could be better."
             }
         ]
     },
     {
-        "id": 2,
+        "id": "42d5f7b65f4b4796ad0c865328c1adce",
         "name": "Urban Eats",
-        "photos": "",
+        "photos": "/urban-eats.jpg?url",
         "categories": [
             "American",
             "Burgers"
@@ -41,20 +41,20 @@
                 "image": "",
                 "name": "Michael Brown",
                 "rating": 4,
-                "text": "Great place for a quick bite!"
+                "comment": "Great place for a quick bite!"
             },
             {
                 "image": "",
                 "name": "Sarah Johnson",
                 "rating": 3.5,
-                "text": "Good burgers but the fries were soggy."
+                "comment": "Good burgers but the fries were soggy."
             }
         ]
     },
     {
-        "id": 3,
+        "id": "3333cbc489a9442d9fc14f659ab9bba2",
         "name": "Ocean's Catch",
-        "photos": "",
+        "photos": "/oceans-catch.jpg?url",
         "categories": [
             "Seafood"
         ],
@@ -66,20 +66,20 @@
                 "image": "",
                 "name": "Emily Davis",
                 "rating": 5,
-                "text": "Best seafood in town!"
+                "comment": "Best seafood in town!"
             },
             {
                 "image": "",
                 "name": "James Wilson",
                 "rating": 4.7,
-                "text": "Fresh and tasty seafood, highly recommend."
+                "comment": "Fresh and tasty seafood, highly recommend."
             }
         ]
     },
     {
-        "id": 4,
+        "id": "848aba081fa24f5ea57dd76ce5110374",
         "name": "Sushi Central",
-        "photos": "",
+        "photos": "/sushi-central.jpg?url",
         "categories": [
             "Japanese",
             "Sushi"
@@ -92,24 +92,24 @@
                 "image": "",
                 "name": "Chris Lee",
                 "rating": 4.5,
-                "text": "Excellent sushi and great ambiance."
+                "comment": "Excellent sushi and great ambiance."
             },
             {
                 "image": "",
                 "name": "Patricia Martinez",
                 "rating": 4.3,
-                "text": "Fresh sushi, but a bit pricey."
+                "comment": "Fresh sushi, but a bit pricey."
             }
         ]
     },
     {
-        "id": 5,
+        "id": "5c0534d37b4f4d71b9975c2fa085bb7a",
         "name": "The Vegan Spot",
-        "photos": "",
+        "photos": "/the-vegan-spot.jpg?url",
         "categories": [
             "Vegan"
         ],
-        "rating": 4.7,
+        "rating": 4,
         "price_range": "$$",
         "is_open": true,
         "reviews": [
@@ -117,20 +117,20 @@
                 "image": "",
                 "name": "Anna White",
                 "rating": 5,
-                "text": "Amazing vegan options, will definitely come back!"
+                "comment": "Amazing vegan options, will definitely come back!"
             },
             {
                 "image": "",
                 "name": "David Thomas",
                 "rating": 4.8,
-                "text": "Great variety of vegan dishes."
+                "comment": "Great variety of vegan dishes."
             }
         ]
     },
     {
-        "id": 6,
+        "id": "57a62873248340e085483ea59c33c038",
         "name": "Taco Fiesta",
-        "photos": "",
+        "photos": "/taco-fiesta.jpg?url",
         "categories": [
             "Mexican",
             "Tacos"
@@ -143,25 +143,25 @@
                 "image": "",
                 "name": "Nancy Moore",
                 "rating": 4,
-                "text": "Tacos were delicious, but the place was crowded."
+                "comment": "Tacos were delicious, but the place was crowded."
             },
             {
                 "image": "",
                 "name": "Kevin Taylor",
                 "rating": 3.8,
-                "text": "Good food, but the service was slow."
+                "comment": "Good food, but the service was slow."
             }
         ]
     },
     {
-        "id": 7,
+        "id": "d3b882c5a0664747a588316ddbc8ff47",
         "name": "Curry House",
-        "photos": "",
+        "photos": "/curry-house.jpg?url",
         "categories": [
             "Indian",
             "Curry"
         ],
-        "rating": 4.9,
+        "rating": 5,
         "price_range": "$$$",
         "is_open": true,
         "reviews": [
@@ -169,20 +169,20 @@
                 "image": "",
                 "name": "Betty Anderson",
                 "rating": 5,
-                "text": "Best curry I've ever had!"
+                "comment": "Best curry I've ever had!"
             },
             {
                 "image": "",
                 "name": "Robert Jackson",
                 "rating": 4.9,
-                "text": "Authentic flavors and great atmosphere."
+                "comment": "Authentic flavors and great atmosphere."
             }
         ]
     },
     {
-        "id": 8,
+        "id": "d8e9a2c33fb740e0a2f27a2e37119b07",
         "name": "Mediterranean Grill",
-        "photos": "",
+        "photos": "/mediterranean-grill.jpg?url",
         "categories": [
             "Mediterranean"
         ],
@@ -194,20 +194,20 @@
                 "image": "",
                 "name": "Laura Harris",
                 "rating": 4.3,
-                "text": "Tasty dishes and friendly staff."
+                "comment": "Tasty dishes and friendly staff."
             },
             {
                 "image": "",
                 "name": "Daniel Clark",
                 "rating": 4.2,
-                "text": "Good food, but a bit overpriced."
+                "comment": "Good food, but a bit overpriced."
             }
         ]
     },
     {
-        "id": 9,
+        "id": "0547326d51874e2d9c2bb5375d2ef82a",
         "name": "Bistro Café",
-        "photos": "",
+        "photos": "/bistro-cafe.jpg?url",
         "categories": [
             "French",
             "Café"
@@ -220,20 +220,20 @@
                 "image": "",
                 "name": "Amy Lewis",
                 "rating": 4,
-                "text": "Nice café with delicious pastries."
+                "comment": "Nice café with delicious pastries."
             },
             {
                 "image": "",
                 "name": "Brian Young",
                 "rating": 3.9,
-                "text": "Good coffee, but the place is a bit small."
+                "comment": "Good coffee, but the place is a bit small."
             }
         ]
     },
     {
-        "id": 10,
+        "id": "2fd1ef15ed8d4651ad179c245b0e4829",
         "name": "BBQ Heaven",
-        "photos": "",
+        "photos": "/bbq-heaven.jpg?url",
         "categories": [
             "BBQ"
         ],
@@ -245,13 +245,13 @@
                 "image": "",
                 "name": "Jessica King",
                 "rating": 4.6,
-                "text": "Amazing BBQ, highly recommend!"
+                "comment": "Amazing BBQ, highly recommend!"
             },
             {
                 "image": "",
                 "name": "George Wright",
                 "rating": 4.5,
-                "text": "Great food, but a bit on the spicy side."
+                "comment": "Great food, but a bit on the spicy side."
             }
         ]
     }

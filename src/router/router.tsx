@@ -10,7 +10,7 @@ export const Router: React.FC = () => {
       <Routes>
         <Route path="*" Component={NotFoundPage} />
         <Route path="/" Component={Indeks} />
-        <Route path="/:id" Component={RestoranDetail} />
+        <Route path="/:name" Component={RestoranDetail} />
       </Routes>
     </BrowserRouter>
   );

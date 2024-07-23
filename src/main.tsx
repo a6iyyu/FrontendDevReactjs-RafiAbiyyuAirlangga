@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createGlobalStyle } from "styled-components";
 import "font-awesome/css/font-awesome.min.css";
+import "@splidejs/splide/css";
 import { Router } from "./router/router";
 
 const GlobalStyles = createGlobalStyle`
