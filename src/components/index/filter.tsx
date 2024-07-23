@@ -11,10 +11,12 @@ export const Filter: React.FC<{ SetFilteredRestaurants: (restaurant: typeof data
   const [showCategories, setShowCategories] = useState<string | null>(null);
 
   useEffect(() => {
-    if (showOpenNow) SetFilteredRestaurants(data.current.filter(resto => resto.is_open));
-    if (showPriceRange) SetFilteredRestaurants(data.current.filter(resto => resto.price_range === showPriceRange));
-    if (showCategories) SetFilteredRestaurants(data.current.filter(resto => resto.categories.includes(showCategories)));
-  }, [showOpenNow, showPriceRange, showCategories]);
+    let FilteredData = data.current;
+    if (showOpenNow) FilteredData = data.current.filter(resto => resto.is_open);
+    if (showPriceRange) FilteredData = data.current.filter(resto => resto.price_range === showPriceRange);
+    if (showCategories) FilteredData = data.current.filter(resto => resto.categories.includes(showCategories));
+    SetFilteredRestaurants(FilteredData);
+  }, [showOpenNow, showPriceRange, showCategories, SetFilteredRestaurants]);
 
   return (
     <section className="flex">

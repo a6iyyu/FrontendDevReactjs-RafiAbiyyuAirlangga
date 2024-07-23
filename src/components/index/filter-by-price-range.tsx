@@ -7,12 +7,12 @@ export const FilterByPriceRange: React.FC<{ SetShowPriceRange: (value: string) =
   const data = useRef(data_restaurant);
   const dropdown = useRef<HTMLDivElement | null>(null);
 
-  const PreventingDuplicate = Array.from(new Set(data.current.map(item => item.price_range))).sort((item, index) => item.localeCompare(index)).map((price_range) => ({ value: price_range }));
+  const PreventingDuplicate = Array.from(new Set(data.current.map(item => item.price_range))).sort();
+  const AddOption = [{ value: "-" }, ...PreventingDuplicate.map(price_range => ({ value: price_range }))]
 
   const HandleOptionClick = (value: string) => {
-    setSelectedPriceRange(value);
+    value === "-" ? (setSelectedPriceRange("Price"), SetShowPriceRange("")) : (setSelectedPriceRange(value), SetShowPriceRange(value));
     setOpen(false);
-    SetShowPriceRange(value);
   };
 
   useEffect(() => {
@@ -29,9 +29,9 @@ export const FilterByPriceRange: React.FC<{ SetShowPriceRange: (value: string) =
       {selectedPriceRange}&emsp;&emsp;
       <i className="fa-sharp-duotone fa-solid fa-angle-down" />
       {open &&
-        <div className="absolute mt-2 rounded-lg bg-slate-50 text-slate-950 shadow-lg">
-          {PreventingDuplicate.map(resto =>
-            <h4 key={resto.value} onClick={() => HandleOptionClick(resto.value)} className="py-3 pl-4 pr-10 transition-all duration-300 ease-in-out first:mt-0 first:rounded-t-lg last:mb-0 last:rounded-b-lg lg:hover:bg-slate-200">
+        <div className="absolute mt-2 rounded-lg bg-slate-800 text-slate-50 shadow-lg">
+          {AddOption.map(resto =>
+            <h4 key={resto.value} onClick={() => HandleOptionClick(resto.value)} className="py-3 pl-4 pr-10 transition-all duration-300 ease-in-out first:mt-0 first:rounded-t-lg last:mb-0 last:rounded-b-lg lg:hover:bg-slate-700">
               {resto.value}
             </h4>
           )}

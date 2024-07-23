@@ -3,11 +3,12 @@ import { WebsiteMeta } from "~/common/website-meta";
 import { IndexHeader } from "~/components/index/header";
 import { Marquee } from "~/components/index/marquee";
 import { DaftarRestoran } from "~/components/index/list";
+import { Footer } from "~/common/footer";
 
 export const Indeks: React.FC = () => {
   useEffect(() => {
-    document.querySelector("button")?.addEventListener("click", () => {
-      document.querySelector(".list")?.scrollIntoView({
+    document.querySelector("button")!.addEventListener("click", () => {
+      document.querySelector(".list")!.scrollIntoView({
         behavior: "smooth",
       });
     });
@@ -19,6 +20,7 @@ export const Indeks: React.FC = () => {
       <IndexHeader />
       <Marquee />
       <DaftarRestoran />
+      <Footer />
     </>
   );
 };
