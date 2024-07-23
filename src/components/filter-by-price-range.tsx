@@ -1,7 +1,7 @@
-import React, { Dispatch, SetStateAction, useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import data_restaurant from "~/data/restaurant.json";
 
-export const FilterByPriceRange: React.FC<{ SetShowPriceRange: Dispatch<SetStateAction<React.FC>> }> = ({ SetShowPriceRange }) => {
+export const FilterByPriceRange: React.FC<{ SetShowPriceRange: (value: string) => void }> = ({ SetShowPriceRange }) => {
   const [open, setOpen] = useState<boolean>(false);
   const [selectedPriceRange, setSelectedPriceRange] = useState<string>("Price");
   const data = useRef(data_restaurant);
@@ -12,6 +12,7 @@ export const FilterByPriceRange: React.FC<{ SetShowPriceRange: Dispatch<SetState
   const HandleOptionClick = (value: string) => {
     setSelectedPriceRange(value);
     setOpen(false);
+    SetShowPriceRange(value);
   };
 
   useEffect(() => {

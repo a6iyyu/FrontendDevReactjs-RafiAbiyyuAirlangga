@@ -1,7 +1,7 @@
-import React, { Dispatch, SetStateAction, useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import data_restaurant from "~/data/restaurant.json";
 
-export const FilterByCategories: React.FC<{ SetShowCategories: Dispatch<SetStateAction<React.FC>> }> = ({ SetShowCategories }) => {
+export const FilterByCategories: React.FC<{ SetShowCategories: (value: string) => void }> = ({ SetShowCategories }) => {
   const [open, setOpen] = useState<boolean>(false);
   const [selectedCategories, setSelectedCategories] = useState<string>("Categories");
   const data = useRef(data_restaurant);
@@ -12,6 +12,7 @@ export const FilterByCategories: React.FC<{ SetShowCategories: Dispatch<SetState
   const HandleOptionClick = (value: string) => {
     setSelectedCategories(value);
     setOpen(false);
+    SetShowCategories(value);
   };
 
   useEffect(() => {
@@ -28,9 +29,9 @@ export const FilterByCategories: React.FC<{ SetShowCategories: Dispatch<SetState
       {selectedCategories}&emsp;&emsp;
       <i className="fa-sharp-duotone fa-solid fa-angle-down" />
       {open &&
-        <div className="absolute mt-2 rounded-lg bg-slate-50 text-slate-950 shadow-lg">
+        <div className="absolute mt-2 rounded-lg bg-slate-800 text-slate-50 shadow-lg">
           {PreventingDuplicate.map(resto =>
-            <h4 key={resto.value} onClick={() => HandleOptionClick(resto.value)} className="py-3 pl-4 pr-10 transition-all duration-300 ease-in-out first:mt-0 first:rounded-t-lg last:mb-0 last:rounded-b-lg lg:hover:bg-slate-200">
+            <h4 key={resto.value} onClick={() => HandleOptionClick(resto.value)} className="py-3 pl-4 pr-10 transition-all duration-300 ease-in-out first:mt-0 first:rounded-t-lg last:mb-0 last:rounded-b-lg lg:hover:bg-slate-700">
               {resto.value}
             </h4>
           )}

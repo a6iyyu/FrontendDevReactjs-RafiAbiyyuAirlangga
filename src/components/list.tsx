@@ -1,18 +1,18 @@
-import React, { useRef } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import restaurant from "~/data/restaurant.json";
 import { Filter } from "./filter";
 import { Rating } from "./rating";
 
 export const DaftarRestoran: React.FC = () => {
-  const data = useRef(restaurant);
+  const [filteredRestaurants, setFilteredRestaurants] = useState(restaurant);
 
   return (
     <main className="list mx-auto mb-20 mt-14 h-fit w-4/5 text-slate-50">
-      <Filter />
+      <Filter SetFilteredRestaurants={setFilteredRestaurants} />
       <h3 className="mb-8 cursor-default rounded-xl text-4xl font-bold underline decoration-1">Daftar Restoran</h3>
       <section className="grid h-full w-full cursor-default grid-cols-1 place-items-center gap-10 sm:grid-cols-2 lg:grid-cols-3">
-        {data.current.map(resto =>
+        {filteredRestaurants.map(resto =>
           <article key={resto.id} className="flex h-full w-full flex-col py-5">
             <img src={resto.photos} alt={resto.name} className="h-full w-full rounded-md text-center transition-all duration-300 ease-in-out lg:hover:scale-105" loading="lazy" />
             <div className="group mt-4 h-fit w-fit text-2xl font-bold text-slate-50 transition-all duration-300 ease-in-out">
