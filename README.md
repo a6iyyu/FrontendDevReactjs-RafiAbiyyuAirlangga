@@ -1,4 +1,4 @@
-<h1 align="center">Rodgen</h1>
+<h1 align="center">Dorevi</h1>
 
 <p align="justify">
 Dorevi, an SPA for food review!
