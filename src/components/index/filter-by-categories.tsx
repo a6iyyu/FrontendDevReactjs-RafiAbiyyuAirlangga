@@ -7,7 +7,7 @@ export const FilterByCategories: React.FC<{ SetShowCategories: (value: string) =
   const data = useRef(data_restaurant);
   const dropdown = useRef<HTMLDivElement | null>(null);
 
-  const PreventingDuplicate = Array.from(new Set(data.current.map(item => item.categories[0]))).sort();
+  const PreventingDuplicate = Array.from(new Set(data.current.map(item => item.category))).sort();
   const AddOption = [{ value: "-" }, ...PreventingDuplicate.map(category => ({ value: category }))]
 
   const HandleOptionClick = (value: string) => {

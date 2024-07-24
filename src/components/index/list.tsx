@@ -32,7 +32,7 @@ export const DaftarRestoran: React.FC = () => {
               </span>
               <div className="mt-3 flex justify-between text-base">
                 <span className="flex">
-                  <h6>{resto.categories[0]}</h6>
+                  <h6>{resto.category}</h6>
                   &ensp;•&ensp;
                   <h6>{resto.price_range}</h6>
                 </span>
@@ -40,7 +40,7 @@ export const DaftarRestoran: React.FC = () => {
                   {resto.is_open ? "🔵\u2002OPEN NOW" : "🔴\u2002CLOSED"}
                 </h6>
               </div>
-              <Link to={`/${resto.name.replace(/ /g, "-").toLowerCase()}`} className="mt-10 h-fit w-full rounded-md bg-blue-800 py-4 text-center transition-all duration-300 ease-in-out hover:bg-blue-700">
+              <Link to={`/${resto.name.replace("'", "").replace(/ /g, "-").toLowerCase()}`} className="mt-10 h-fit w-full rounded-md bg-blue-800 py-4 text-center transition-all duration-300 ease-in-out hover:bg-blue-700">
                 LEARN MORE
               </Link>
             </article>

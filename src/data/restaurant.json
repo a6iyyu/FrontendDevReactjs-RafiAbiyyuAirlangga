@@ -3,256 +3,280 @@
         "id": "7b195607c477431b9fa543284bd092a0",
         "name": "Savory Delights",
         "photos": "/savory-delights.jpg?url",
-        "categories": [
-            "Italian",
-            "Pasta"
-        ],
+        "category": "Vegan",
         "rating": 4.5,
         "price_range": "$$",
         "is_open": true,
         "reviews": [
             {
-                "image": "",
+                "image": "/john-doe.jpg?url",
                 "name": "John Doe",
                 "rating": 5,
-                "comment": "Amazing food and great service!"
+                "comment": "Amazing food and great service! The pasta was cooked to perfection and the flavors were rich and satisfying. I will definitely be coming back for more."
             },
             {
-                "image": "",
+                "image": "/jane-smith.jpg?url",
                 "name": "Jane Smith",
                 "rating": 4,
-                "comment": "The pasta was delicious, but the dessert could be better."
+                "comment": "The pasta was delicious, but the dessert could be better. The tiramisu lacked the traditional coffee punch and was a bit too creamy. Overall, a good dining experience with room for improvement."
             }
-        ]
+        ],
+        "location": {
+            "street_name": "123 Pasta Lane",
+            "city": "Rome",
+            "country": "Italy"
+        }
     },
     {
         "id": "42d5f7b65f4b4796ad0c865328c1adce",
         "name": "Urban Eats",
         "photos": "/urban-eats.jpg?url",
-        "categories": [
-            "American",
-            "Burgers"
-        ],
+        "category": "Vegan",
         "rating": 4.2,
         "price_range": "$",
         "is_open": false,
         "reviews": [
             {
-                "image": "",
+                "image": "/michael-brown.webp?url",
                 "name": "Michael Brown",
                 "rating": 4,
-                "comment": "Great place for a quick bite!"
+                "comment": "Great place for a quick bite! The burgers were juicy and well-seasoned, making it a satisfying meal. I would definitely recommend it for a casual outing."
             },
             {
-                "image": "",
+                "image": "/sarah-johnson.avif?url",
                 "name": "Sarah Johnson",
                 "rating": 3.5,
-                "comment": "Good burgers but the fries were soggy."
+                "comment": "Good burgers but the fries were soggy. The service was friendly but a bit slow, which affected the overall experience. Still, a decent spot for burger lovers."
             }
-        ]
+        ],
+        "location": {
+            "street_name": "456 Burger Blvd",
+            "city": "New York",
+            "country": "USA"
+        }
     },
     {
         "id": "3333cbc489a9442d9fc14f659ab9bba2",
         "name": "Ocean's Catch",
         "photos": "/oceans-catch.jpg?url",
-        "categories": [
-            "Seafood"
-        ],
+        "category": "Seafood",
         "rating": 4.8,
         "price_range": "$$$",
         "is_open": true,
         "reviews": [
             {
-                "image": "",
+                "image": "/emily-davis.jpg?url",
                 "name": "Emily Davis",
                 "rating": 5,
-                "comment": "Best seafood in town!"
+                "comment": "Best seafood in town! The dishes were fresh and expertly prepared, making every bite a delight. This place is a must-visit for seafood enthusiasts."
             },
             {
-                "image": "",
+                "image": "/james-wilson.jpg?url",
                 "name": "James Wilson",
                 "rating": 4.7,
-                "comment": "Fresh and tasty seafood, highly recommend."
+                "comment": "Fresh and tasty seafood, highly recommend. The service was top-notch and the ambiance was perfect for a special evening. A bit pricey, but worth every penny."
             }
-        ]
+        ],
+        "location": {
+            "street_name": "789 Ocean Drive",
+            "city": "Miami",
+            "country": "USA"
+        }
     },
     {
         "id": "848aba081fa24f5ea57dd76ce5110374",
         "name": "Sushi Central",
         "photos": "/sushi-central.jpg?url",
-        "categories": [
-            "Japanese",
-            "Sushi"
-        ],
+        "category": "Sushi",
         "rating": 4.6,
         "price_range": "$$",
         "is_open": false,
         "reviews": [
             {
-                "image": "",
+                "image": "/chris-lee.jpg?url",
                 "name": "Chris Lee",
                 "rating": 4.5,
-                "comment": "Excellent sushi and great ambiance."
+                "comment": "Excellent sushi and great ambiance. The fish was fresh and the rolls were innovative and delicious. A fantastic spot for sushi lovers."
             },
             {
-                "image": "",
+                "image": "/patricia-martinez.jpg?url",
                 "name": "Patricia Martinez",
                 "rating": 4.3,
-                "comment": "Fresh sushi, but a bit pricey."
+                "comment": "Fresh sushi, but a bit pricey. The presentation was beautiful and the flavors were spot-on. However, the cost might deter some from frequent visits."
             }
-        ]
+        ],
+        "location": {
+            "street_name": "101 Sushi Street",
+            "city": "Tokyo",
+            "country": "Japan"
+        }
     },
     {
         "id": "5c0534d37b4f4d71b9975c2fa085bb7a",
         "name": "The Vegan Spot",
         "photos": "/the-vegan-spot.jpg?url",
-        "categories": [
-            "Vegan"
-        ],
+        "category": "Vegan",
         "rating": 4,
         "price_range": "$$",
         "is_open": true,
         "reviews": [
             {
-                "image": "",
+                "image": "/anna-white.jpg?url",
                 "name": "Anna White",
                 "rating": 5,
-                "comment": "Amazing vegan options, will definitely come back!"
+                "comment": "Amazing vegan options, will definitely come back! The variety of dishes was impressive, catering to all tastes. A must-visit for anyone looking to enjoy healthy, delicious food."
             },
             {
-                "image": "",
+                "image": "/david-thomas.webp?url",
                 "name": "David Thomas",
                 "rating": 4.8,
-                "comment": "Great variety of vegan dishes."
+                "comment": "Great variety of vegan dishes. The flavors were vibrant and the ingredients were fresh. A fantastic experience for vegans and non-vegans alike."
             }
-        ]
+        ],
+        "location": {
+            "street_name": "202 Green Ave",
+            "city": "Los Angeles",
+            "country": "USA"
+        }
     },
     {
         "id": "57a62873248340e085483ea59c33c038",
         "name": "Taco Fiesta",
         "photos": "/taco-fiesta.jpg?url",
-        "categories": [
-            "Mexican",
-            "Tacos"
-        ],
+        "category": "Vegan",
         "rating": 4.3,
         "price_range": "$",
         "is_open": false,
         "reviews": [
             {
-                "image": "",
+                "image": "/nancy-moore.avif?url",
                 "name": "Nancy Moore",
                 "rating": 4,
-                "comment": "Tacos were delicious, but the place was crowded."
+                "comment": "Tacos were delicious, but the place was crowded. The vibrant atmosphere added to the experience, but it was hard to find a seat. Great spot for a quick, tasty meal."
             },
             {
-                "image": "",
+                "image": "/kevin-taylor.jpg?url",
                 "name": "Kevin Taylor",
                 "rating": 3.8,
-                "comment": "Good food, but the service was slow."
+                "comment": "Good food, but the service was slow. The tacos were flavorful and authentic, but the wait time was longer than expected. Still worth a visit for the food alone."
             }
-        ]
+        ],
+        "location": {
+            "street_name": "303 Fiesta Road",
+            "city": "Mexico City",
+            "country": "Mexico"
+        }
     },
     {
         "id": "d3b882c5a0664747a588316ddbc8ff47",
         "name": "Curry House",
         "photos": "/curry-house.jpg?url",
-        "categories": [
-            "Indian",
-            "Curry"
-        ],
+        "category": "Sushi",
         "rating": 5,
         "price_range": "$$$",
         "is_open": true,
         "reviews": [
             {
-                "image": "",
+                "image": "/betty-anderson.webp?url",
                 "name": "Betty Anderson",
                 "rating": 5,
-                "comment": "Best curry I've ever had!"
+                "comment": "Best curry I've ever had! The spices were perfectly balanced and the portions were generous. A true gem for curry enthusiasts."
             },
             {
-                "image": "",
+                "image": "/robert-jackson.jpg?url",
                 "name": "Robert Jackson",
                 "rating": 4.9,
-                "comment": "Authentic flavors and great atmosphere."
+                "comment": "Authentic flavors and great atmosphere. The dishes transported me straight to India with their rich, aromatic spices. Highly recommend for a flavorful dining experience."
             }
-        ]
+        ],
+        "location": {
+            "street_name": "404 Spice Lane",
+            "city": "Mumbai",
+            "country": "India"
+        }
     },
     {
         "id": "d8e9a2c33fb740e0a2f27a2e37119b07",
         "name": "Mediterranean Grill",
         "photos": "/mediterranean-grill.jpg?url",
-        "categories": [
-            "Mediterranean"
-        ],
+        "category": "Seafood",
         "rating": 4.4,
         "price_range": "$$",
         "is_open": false,
         "reviews": [
             {
-                "image": "",
+                "image": "/laura-harris.webp?url",
                 "name": "Laura Harris",
                 "rating": 4.3,
-                "comment": "Tasty dishes and friendly staff."
+                "comment": "Tasty dishes and friendly staff. The flavors were authentic and the ingredients were fresh. A great spot for a casual Mediterranean meal."
             },
             {
-                "image": "",
+                "image": "/daniel-clark.jpg?url",
                 "name": "Daniel Clark",
                 "rating": 4.2,
-                "comment": "Good food, but a bit overpriced."
+                "comment": "Good food, but a bit overpriced. The quality was excellent, but the prices were a bit high for the portion sizes. Still, a pleasant dining experience overall."
             }
-        ]
+        ],
+        "location": {
+            "street_name": "505 Mediterranean Blvd",
+            "city": "Athens",
+            "country": "Greece"
+        }
     },
     {
         "id": "0547326d51874e2d9c2bb5375d2ef82a",
         "name": "Bistro Café",
         "photos": "/bistro-cafe.jpg?url",
-        "categories": [
-            "French",
-            "Café"
-        ],
+        "category": "Kafe",
         "rating": 4.1,
         "price_range": "$$",
         "is_open": true,
         "reviews": [
             {
-                "image": "",
+                "image": "/amy-lewis.jpg?url",
                 "name": "Amy Lewis",
                 "rating": 4,
-                "comment": "Nice café with delicious pastries."
+                "comment": "Nice café with delicious pastries. The croissants were flaky and buttery, and the coffee was rich and smooth. A lovely spot for a morning treat."
             },
             {
-                "image": "",
+                "image": "/brian-young.avif?url",
                 "name": "Brian Young",
                 "rating": 3.9,
-                "comment": "Good coffee, but the place is a bit small."
+                "comment": "Good coffee, but the place is a bit small. The ambiance was cozy, but it can get crowded quickly. Still, a great place to enjoy a cup of coffee and a pastry."
             }
-        ]
+        ],
+        "location": {
+            "street_name": "606 Bistro Lane",
+            "city": "Paris",
+            "country": "France"
+        }
     },
     {
         "id": "2fd1ef15ed8d4651ad179c245b0e4829",
         "name": "BBQ Heaven",
-        "photos": "/bbq-heaven.jpg?url",
-        "categories": [
-            "BBQ"
-        ],
+        "photos": "/bbq-heaven.webp?url",
+        "category": "BBQ",
         "rating": 4.7,
         "price_range": "$$",
         "is_open": false,
         "reviews": [
             {
-                "image": "",
+                "image": "/jessica-king.jpg?url",
                 "name": "Jessica King",
                 "rating": 4.6,
-                "comment": "Amazing BBQ, highly recommend!"
+                "comment": "Amazing BBQ, highly recommend! The ribs were tender and the sauce was smoky and flavorful. A must-try for BBQ lovers."
             },
             {
-                "image": "",
+                "image": "/george-wright.jpg?url",
                 "name": "George Wright",
                 "rating": 4.5,
-                "comment": "Great food, but a bit on the spicy side."
+                "comment": "Great food, but a bit on the spicy side. The meat was cooked to perfection, but the spiciness might not be for everyone. Overall, a fantastic BBQ experience."
             }
-        ]
+        ],
+        "location": {
+            "street_name": "707 BBQ Street",
+            "city": "Austin",
+            "country": "USA"
+        }
     }
 ]

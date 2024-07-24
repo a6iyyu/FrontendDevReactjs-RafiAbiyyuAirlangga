@@ -7,7 +7,7 @@ import data_restaurant from "~/data/restaurant.json";
 import { WebsiteMeta } from "~/common/website-meta";
 import { Header } from "~/common/header";
 import { Information } from "~/components/detail/information";
-import { Rating } from "~/components/detail/rating";
+import { Comments } from "~/components/detail/rating";
 import { Footer } from "~/common/footer";
 
 export const RestoranDetail: React.FC = () => {
@@ -16,7 +16,7 @@ export const RestoranDetail: React.FC = () => {
   const [detailRestaurant, setDetailRestaurant] = useState<Restaurant | null>(null);
 
   useEffect(() => {
-    const FindRestaurant = data_restaurant.find((resto: Restaurant) => resto.name.replace(/ /g, "-").toLowerCase() === name!.replace(/ /g, "-").toLowerCase());
+    const FindRestaurant = data_restaurant.find((resto: Restaurant) => resto.name.replace("'", "").replace(/ /g, "-").toLowerCase() === name!.replace("'", "").replace(/ /g, "-").toLowerCase());
     if (FindRestaurant) setDetailRestaurant(FindRestaurant);
     setLoading(false);
   }, [name]);
@@ -29,7 +29,7 @@ export const RestoranDetail: React.FC = () => {
       <WebsiteMeta title={detailRestaurant.name} description={detailRestaurant.name} />
       <Header />
       <Information detail={detailRestaurant} />
-      <Rating rating={detailRestaurant} />
+      <Comments comments={detailRestaurant} />
       <Footer />
     </>
   );

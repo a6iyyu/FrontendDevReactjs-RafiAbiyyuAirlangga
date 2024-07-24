@@ -14,7 +14,7 @@ export const Filter: React.FC<{ SetFilteredRestaurants: (restaurant: typeof data
     let FilteredData = data.current;
     if (showOpenNow) FilteredData = FilteredData.filter(resto => resto.is_open);
     if (showPriceRange) FilteredData = FilteredData.filter(resto => resto.price_range === showPriceRange);
-    if (showCategories) FilteredData = FilteredData.filter(resto => resto.categories.includes(showCategories));
+    if (showCategories) FilteredData = FilteredData.filter(resto => resto.category === showCategories);
     SetFilteredRestaurants(FilteredData);
   }, [showOpenNow, showPriceRange, showCategories, SetFilteredRestaurants]);
 

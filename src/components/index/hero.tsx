@@ -17,11 +17,11 @@ export const Hero: React.FC = () => {
   }, []);
 
   return (
-    <section className="mx-auto flex h-fit w-2/3 cursor-default flex-col items-center pb-40 pt-24 text-slate-50 lg:w-4/5 lg:items-start">
+    <section className="mx-auto flex h-fit w-4/5 cursor-default flex-col items-center pb-40 pt-24 text-slate-50 lg:items-start">
       <div className="mb-4 inline text-center text-4xl font-bold lg:text-left lg:text-5xl">
         <span ref={kalimat} />
       </div>
-      <h4 className="text-justify text-xl font-medium [text-align-last:center] lg:mt-1 lg:text-left lg:text-2xl lg:[text-align-last:left]">
+      <h4 className="text-center text-xl font-medium lg:mt-1 lg:text-left lg:text-2xl lg:[text-align-last:left]">
         Jangan khawatir, kami punya rekomendasi&nbsp;
         <br className="hidden lg:inline" />
         tempat makan terbaik untukmu!
